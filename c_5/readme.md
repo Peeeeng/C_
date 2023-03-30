@@ -1,3 +1,6 @@
+# 2023-03-30 5주차 C프로그래밍 수업
+
+```c
 #include <stdio.h>
 
 int main(void)
@@ -21,3 +24,5 @@ int main(void)
   }
   return 0;
 }
+//백준 1330번
+```

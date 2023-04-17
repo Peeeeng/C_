@@ -11,7 +11,7 @@ int main()
   
   while (1)
   {
-    scanf("%d %d", &a, &b);
+    scanf("%d %d", &a, &b); //a와 b가 모두 0이면 중지
     if (a==0 && b==0)
     {
       break;

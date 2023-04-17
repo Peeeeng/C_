@@ -7,7 +7,7 @@ int main()
   int a, b, T;
   int i = 1;
   
-  scanf("%d", &T);
+  scanf("%d", &T); //케이스 개수 입력
   
   while(i<=T)
     {

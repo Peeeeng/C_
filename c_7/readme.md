@@ -9,7 +9,7 @@ int main()
 {
   int a, b;
   
-  while (1)
+  while (1) //무한반복
   {
     scanf("%d %d", &a, &b); //a와 b가 모두 0이면 중지
     if (a==0 && b==0)

@@ -7,7 +7,7 @@ int main()
 {
     int x, y;
 
-    printf("두 개의 정수르 입력하시오 : ");
+    printf("두 개의 정수를 입력하시오 : ");
     scanf("%d %d", &x, &y);
 
     printf("%d\n", x * (y%10));

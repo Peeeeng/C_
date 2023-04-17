@@ -2,6 +2,8 @@
 ```c
 #include <stdio.h>
 
+//백준 10950번
+
 int main()
 {
   int a, b, T;
@@ -18,5 +20,4 @@ int main()
 
   return 0;
 }
-//백준 10950번
 ```

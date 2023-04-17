@@ -3,6 +3,8 @@
 ```c
 #include <stdio.h>
 
+//백준 1330번
+
 int main(void)
 {
   int A, B;
@@ -24,5 +26,4 @@ int main(void)
   }
   return 0;
 }
-//백준 1330번
 ```

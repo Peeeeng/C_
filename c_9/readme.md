@@ -20,7 +20,8 @@ int main(void)
   
   return 0;
 }
-
+```
+```c
 //원의 면적 계산 프로그램
 #include <stdio.h>
 
@@ -38,7 +39,8 @@ int main(void)
   
   return 0;
 }
-
+```
+```c
 //환율 계산 프로그램
 #include <stdio.h>
 
@@ -58,7 +60,8 @@ int main(void)
   
   return 0;
 }
-
+```
+```c
 //평균 계산하기 프로그램
 #include <stdio.h>
 
@@ -78,7 +81,8 @@ int main(void)
   
   return 0;
 }
-
+```
+```c
 //사각형의 둘레와 면적
 #include <stdio.h>
 

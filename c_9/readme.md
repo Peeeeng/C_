@@ -101,10 +101,56 @@ int main(void)
 ### 3주차 연습문제
 ```c
 //태양빛 도달 시간
+#include <stdio.h>
+
+int main(void)
+{
+  double light_speed = 300000;
+  double distance = 149600000;
+  double time;
+
+  time = distance / light_speed;
+  //time = time / 60.0;
+
+  printf("빛의 속도는 %fkm/s \n", light_speed);
+  printf("태양과 지구와의 거리 %fkm \n", distance);
+  printf("도달 시간은 %f초\n", time); //?분 ?초
+  
+  return 0;
+}
 ```
 ### 4주차 연습문제
 ```c
 //거스름돈 계산하기
+#include <stdio.h>
+
+int main(void)
+{
+  int money, change;
+  int price, c5000, c1000, c500, c100;
+
+  printf("물건 값을 입력하시오 : ");
+  scanf("%d", &price);
+
+  printf("투입한 금액을 입력하시오 : ");
+  scanf("%d", &money);
+  change = money - price;
+
+  c1000 = change / 1000;
+  change = change % 1000;
+
+  c500 = change / 500;
+  change = change % 500;
+
+  c100 = change / 100;
+  change = change % 100;
+
+  printf("\n천원권 : %d장\n", c1000);
+  printf("오백원 동전 : %d개\n", c500);
+  printf("백원 동전 : %d개\n", c100);
+  
+  return 0;
+}
 ```
 ### 5주차 연습문제
 ### 6주차 연습문제

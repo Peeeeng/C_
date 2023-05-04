@@ -25,3 +25,93 @@ int main() {
   return 0;
 }
 ```
+```c
+#include <stdio.h>
+
+int get_integer();
+int add(int x, int y);
+int minus(int x, int y);
+int multi(int x, int y);
+int div(int x, int y);
+
+int get_integer()
+{
+  int value;
+  printf("정수를 입력하시오 : ");
+  scanf("%d", &value);
+  return value;
+}
+
+//add
+int add(int x, int y)
+{
+  return x+y;
+}
+
+int main(void)
+{
+  int x, y;
+
+  int x = get_integer();
+  int y = get_integer();
+
+  int sum = add(x, y);
+  printf("두 수의 합은 : %d", x+y);
+
+  return 0;
+}
+//minus
+int minus(int x, int y)
+{
+  return x-y;
+}
+
+int main(void)
+{
+  int x, y;
+
+  int x = get_integer();
+  int y = get_integer();
+
+  int sum = minus(x, y);
+  printf("두 수의 차는 : %d", x-y);
+
+  return 0;
+}
+//multi
+int multi(int x, int y)
+{
+  return x*y;
+}
+
+int main(void)
+{
+  int x, y;
+
+  int x = get_integer();
+  int y = get_integer();
+
+  int sum = multi(x, y);
+  printf("두 수의 곱은 : %d", x*y);
+
+  return 0;
+}
+//div
+int div(int x, int y)
+{
+  return x-y;
+}
+
+int main(void)
+{
+  int x, y;
+
+  int x = get_integer();
+  int y = get_integer();
+
+  int sum = div(x, y);
+  printf("두 수의 나눗셈은 : %d", x/y);
+
+  return 0;
+}
+```

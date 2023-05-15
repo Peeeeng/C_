@@ -1,5 +1,6 @@
 # 2023-05-11 11주차 C프로그래밍 과제
 ```c
+//동전 던지기 게임
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
@@ -28,4 +29,38 @@ int coin_toss( void )
   int head = rand() % 2;
   return head;
 }
+```
+```c
+//자동차 게임
+#include <stdlib.h>
+#include <stdio.h>
+#include <conio.h>
+#include <time.h>
+void disp_car(int car_number, int distance)
+{
+  int i;
+  printf("CAR #%d:", car_number);
+  for( i = 0; i < distance/10; i++ )
+  {
+    printf("*");
+  }
+  printf("\n");
+}
+int main(void)
+{
+  int i;
+  int car1_dist=0, car2_dist=0;
+  srand( (unsigned)time( NULL ) );
+  for( i = 0; i < 6; i++ )
+  {
+    car1_dist += rand() % 100;
+    car2_dist += rand() % 100;
+    disp_car(1, car1_dist);
+    disp_car(2, car2_dist);
+    printf("---------------------\n");
+    _getch();
+  }
+return 0;
+}
+
 ```

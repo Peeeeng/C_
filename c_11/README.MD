@@ -212,9 +212,9 @@ void logBase10()
 int main(void)
 {
 	while (1)
-  {
+ 	{
 	   switch (menu())
-     {
+	   {
 		      case 1:
 			            factorial();
 			             break;
@@ -230,7 +230,7 @@ int main(void)
 		      default:
 			            printf("잘못된 선택입니다.\n");
 			            break;
-		}  
-  }
+	     }  
+  	}
 }
 ```

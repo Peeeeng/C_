@@ -213,24 +213,24 @@ int main(void)
 {
 	while (1)
  	{
-	   switch (menu())
-	   {
+	   	switch (menu())
+	   	{
 		      case 1:
-			            factorial();
-			             break;
+			     factorial();
+			     break;
 		      case 2:
-			            sine();
-			            break;
+			     sine();
+			     break;
 		      case 3:
-			            logBase10();
-			            break;
+			     logBase10();
+			     break;
 		      case 7:
-			            printf("종료합니다.\n");
-			            return 0;
+			      printf("종료합니다.\n");
+			      return 0;
 		      default:
-			            printf("잘못된 선택입니다.\n");
-			            break;
-	     }  
+		               printf("잘못된 선택입니다.\n");
+			       break;
+	     	}  
   	}
 }
 ```

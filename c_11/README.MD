@@ -225,11 +225,11 @@ int main(void)
 			     logBase10();
 			     break;
 		      case 7:
-			      printf("종료합니다.\n");
-			      return 0;
+			     printf("종료합니다.\n");
+			     return 0;
 		      default:
-		               printf("잘못된 선택입니다.\n");
-			       break;
+		              printf("잘못된 선택입니다.\n");
+			      break;
 	     	}  
   	}
 }
